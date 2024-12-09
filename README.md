@@ -6,8 +6,7 @@ The repository showcases the implementation of several machine learning models t
 
 Repository Contents
 Heart_Disease_Prediction.ipynb: Jupyter notebook containing EDA, model training, and evaluation code.
-heart_disease_demo.mp4: A demo video demonstrating the prediction process.
-dataset.csv: Dataset used for training and testing models.
+heart.csv: Dataset used for training and testing models.
 requirements.txt: List of dependencies for replicating the project.
 Model Training Steps
 Data Preparation:
