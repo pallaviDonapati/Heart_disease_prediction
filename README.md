@@ -1,12 +1,32 @@
 # Heart_disease_prediction
-This project is focused on predicting heart disease using a dataset containing patient health metrics. It involves exploratory data analysis (EDA), data preprocessing, and applying various machine learning models to classify whether a patient has heart disease.
+This project aims to predict heart disease by analyzing patient health metrics using machine learning and deep learning techniques. It provides a streamlined approach to detect the likelihood of heart disease through multiple algorithms and tools.
 
-Key highlights of the project:
+Project Overview
+The repository showcases the implementation of several machine learning models to classify heart disease. The process involves detailed exploratory data analysis (EDA), preprocessing steps, and model performance evaluation.
 
-Dataset Analysis: Extracted insights such as correlations, class distributions, and feature descriptions.
-Machine Learning Models:
-Logistic Regression, Naive Bayes, and Linear SVM achieved accuracies of 85.25%, 85.25%, and 81.97%, respectively.
-Decision Tree and Random Forest provided competitive accuracies, with Random Forest reaching a 90.16% accuracy after hyperparameter tuning.
-XGBoost achieved 83.61% accuracy, showcasing robust performance.
-A neural network model was implemented using Keras, demonstrating the use of deep learning in binary classification tasks.
-Tools and Technologies: Python, pandas, scikit-learn, seaborn, XGBoost, and TensorFlow/Keras.
+Repository Contents
+Heart_Disease_Prediction.ipynb: Jupyter notebook containing EDA, model training, and evaluation code.
+heart_disease_demo.mp4: A demo video demonstrating the prediction process.
+dataset.csv: Dataset used for training and testing models.
+requirements.txt: List of dependencies for replicating the project.
+Model Training Steps
+Data Preparation:
+
+Loaded and cleaned the dataset, handled missing values, and performed feature scaling.
+Explored feature importance through correlation heatmaps and pair plots.
+Model Selection:
+
+Trained multiple models, including Logistic Regression, Naive Bayes, Decision Tree, Random Forest, SVM, and XGBoost.
+Neural Network developed using Keras to explore deep learning applications.
+Hyperparameter Tuning:
+
+GridSearchCV optimized model parameters for SVM and Random Forest, achieving maximum performance.
+Model Evaluation:
+
+Accuracy, precision, recall, and F1 scores were calculated for each model.
+Random Forest achieved the highest accuracy of 90.16% after tuning.
+App Features (Optional Integration):
+A Streamlit-based app can be developed for user-friendly interaction.
+Users can input patient data and receive predictions in real-time.
+Tools and Technologies
+Python, pandas, scikit-learn, XGBoost, seaborn, TensorFlow.
